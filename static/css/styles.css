@@ -595,6 +595,7 @@ body.dark-body {
   .home-banner .social-icons {
     right: auto;
     left: 50px;
+    bottom: 70px;
   }
 }
 
