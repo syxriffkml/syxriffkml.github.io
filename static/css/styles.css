@@ -142,22 +142,7 @@ body.dark-body {
 /*---------------------------------
   Scroll Auto
 -----------------------------------*/
-@media(min-width: 992px){
-  .page-scroll {
-    overflow-y: scroll;
-    height: 100vh;
-  }
-  .page-scroll:after {
-    content: "";
-    top: 0;
-    bottom: 0;
-    width: 20px;
-    background: #fff;
-    right: 0px;
-    z-index: 1;
-    
-  }
-}
+
 .page-content {
   padding: 50px;
   max-width: 1200px;
