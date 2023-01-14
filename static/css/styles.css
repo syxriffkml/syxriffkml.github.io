@@ -175,13 +175,13 @@ body.dark-body {
     overflow-y: auto;
   }
   .page-content {
-    padding: 90px 30px 60px;
+    padding: 90px 30px 150px;
   }
 }
 
 @media(max-width: 767px) {
   .page-content {
-    padding: 85px 20px 60px;
+    padding: 85px 20px 150px;
   }
 }
 
