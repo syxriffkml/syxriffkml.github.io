@@ -34,7 +34,7 @@ Table of contents
 body {
   font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
-  /*font-smoothing: antialiased;*/
+  font-smoothing: antialiased;
   font-size: 15px;
   line-height: 1.8;
   color: #878C9F;
@@ -416,7 +416,7 @@ body.dark-body {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-
+  text-transform: uppercase;
   float: left;
   line-height: 50px;
   padding: 5px 15px;
@@ -568,15 +568,15 @@ body.dark-body {
   vertical-align: middle;
 }
 .home-banner .social-icons a {
-  width: 40px;
-  height: 40px;
-  background: #000000;
+  width: 30px;
+  height: 30px;
+  background: #111;
   display: block;
   text-align: center;
-  line-height: 41px;
+  line-height: 30px;
   color: #fff;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 @media(max-width: 991px){
@@ -626,13 +626,6 @@ body.dark-body {
   .home-text .btn-bar {
     margin-top: 15px; 
   }
-  .home-banner .social-icons a {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-size: 12px;
-  }
-  
 }
 
 /*---------------------------------
