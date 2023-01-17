@@ -1039,6 +1039,7 @@ body.dark-body {
 .testimonial-col .say {
     position: relative;
     padding: 20px;
+    border-top: 1px solid #ddd;
 }
 .testimonial-col .say p {
   font-size: 14px;
@@ -1051,8 +1052,8 @@ border-top: 1px solid #ddd;
 padding: 20px;
 }
 .testimonial-col .user .img {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   display: inline-block;
   vertical-align: middle;
   border-radius: 50%;
