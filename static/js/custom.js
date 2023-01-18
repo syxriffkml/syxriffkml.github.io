@@ -130,7 +130,7 @@ Copyright (c) 2018 - PxDraft
 
      ALX.mTypeIt = function() {
         new TypeIt('#type-it', {
-            speed: 200,
+            speed: 100,
             loop:true,
             strings: [
               'Designer',
@@ -159,3 +159,22 @@ Copyright (c) 2018 - PxDraft
 })(jQuery);
 
 
+//Carousel for My Skills page
+$(".owl-carousel").owlCarousel({
+  responsive : {       
+      0 : { // breakpoint from 0 up
+          autoplay : true,
+          autoplayTimeout: 6000,//Autoplay interval timeout.
+          loop:true,//Infinity loop. Duplicate last and first items to get loop illusion.
+          items:1, //The number of items you want to see on the screen.
+          margin:10
+      },      
+      768 : { // breakpoint from 768 up
+          autoplay : true,
+          autoplayTimeout: 6000,//Autoplay interval timeout.
+          loop:true,//Infinity loop. Duplicate last and first items to get loop illusion.
+          items:3, //The number of items you want to see on the screen.
+          margin:10
+      }
+  }
+});
